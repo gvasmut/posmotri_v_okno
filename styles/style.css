@@ -246,7 +246,7 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__submit-button:focus-visible {
+.button:focus-visible {
   outline: currentColor solid 1px;
   outline-offset: 1px;
 }
