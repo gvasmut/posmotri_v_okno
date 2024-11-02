@@ -43,8 +43,8 @@ ol {
 
 .content {
   display: grid;
-  grid-template-columns: 711px 399px;
-  justify-content: space-between;
+  grid-template-columns: 711px 1fr;
+  gap: 30px;
   align-items: end;
   width: 1140px;
 }
@@ -62,7 +62,6 @@ ol {
   flex-direction: column;
   height: 298px;
   overflow: auto;
-  overflow-x: hidden;
 }
 
 .content__list-item:not(:last-of-type) {
